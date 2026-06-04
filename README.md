@@ -25,3 +25,11 @@ pip install -r requirements.txt
 Then open `chillerdata.ipynb` in VS Code and **Run All**.
 
 ---
+
+- Introduced markdown cells explaining time series anomaly detection for evaporator leaving water temperature, including visualizations of anomalies and z-scores.
+- Added insights on Pearson correlation analysis between all variables and evaporator leaving water temperature, highlighting key drivers and their significance.
+- Included distribution analysis of evaporator leaving water temperature, confirming the effectiveness of z-score for anomaly detection.
+- Enhanced correlation heatmap section with interpretations of multicollinearity among motor current parameters.
+- Created a scatter matrix to visualize relationships between top drivers and the target variable, emphasizing the physical correlations.
+- Developed operational efficiency diagnostics dashboard, detailing the chiller's performance and identifying anomalies in efficiency.
+- Summarized findings in a final conclusion markdown, outlining key insights and recommendations for further investigation for commit 
